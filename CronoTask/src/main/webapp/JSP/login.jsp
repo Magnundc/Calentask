@@ -54,16 +54,19 @@
 						<input class="btn btn-lg btn-facebook btn-block" type="submit"
 							value="Login via facebook">
 						<center>
-						<br>
-						<h4>OU Cadastre-se</h4>
+							<br>
+							<h4>OU</h4>
 						</center>
-						<br>
-						<input class="btn btn-lg btn-facebook btn-block" type="submit"
-							value="Cadastre-se">
+						<br> <input class="btn btn-lg btn-facebook btn-block"
+							type="submit" value="Cadastre-se">
+
+						</form>
+						<p style="color: red;"><%=request.getAttribute("erro")%></p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
