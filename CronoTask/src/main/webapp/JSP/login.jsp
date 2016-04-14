@@ -53,6 +53,13 @@
 						</center>
 						<input class="btn btn-lg btn-facebook btn-block" type="submit"
 							value="Login via facebook">
+						<center>
+						<br>
+						<h4>OU Cadastre-se</h4>
+						</center>
+						<br>
+						<input class="btn btn-lg btn-facebook btn-block" type="submit"
+							value="Cadastre-se">
 					</div>
 				</div>
 			</div>
