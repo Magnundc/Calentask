@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet {
 		String nomeUsuario = usuarioParam == null ? "" : usuarioParam;
 		String senha = usuarioParam == null ? "" : senhaParam;
 
-		Usuario usuario = new Usuario(nomeUsuario, senha);
+		Usuario usuario = new Usuario(nomeUsuario, senha, email);
 		return usuario;
 	}
 }

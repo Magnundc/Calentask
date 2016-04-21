@@ -57,12 +57,10 @@
 							<br>
 							<h4>OU</h4>
 						</center>
-						<br> <input class="btn btn-lg btn-facebook btn-block"
-							type="submit" value="Cadastre-se">
+						<br> <a href="cadastrar.jsp" class="btn btn-lg btn-primary btn-block">Cadastrar</a>
+							
 
-						</form>
-						<p style="color: red;"><%=request.getAttribute("erro")%></p>
-					</div>
+						</div>
 				</div>
 			</div>
 		</div>
